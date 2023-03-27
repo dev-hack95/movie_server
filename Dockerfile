@@ -1,4 +1,4 @@
-FROM golang:alpine as builde
+FROM golang:alpine as builder
 LABEL maintainer="saiprasadtoshatwad@gmail.com"
 RUN apk update && apk add --no-cache git
 WORKDIR /app
